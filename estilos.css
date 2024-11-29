@@ -226,6 +226,7 @@ footer{
     display:flex;
     flex-direction: row;
     align-items:center;
+	width:100%;
 	justify-content: space-around;
 }
 .img{
@@ -240,6 +241,10 @@ footer{
 }
 .img img{
 	  margin:12%;
+}
+.texto{
+	 height:auto;
+	  width:50%;
 }
 .texto p{
 	line-height:30px;
@@ -273,7 +278,7 @@ footer{
 	flex-direction: column;
 	width:25%;
 	justify-content: space-between;
-	height:340px;
+	height:auto;
 }
 .banner img{
 	width:100%;
@@ -649,12 +654,13 @@ figure:hover figcaption {
     opacity: 1;
     transform: translateY(0);
 }
+
 /* Estilo del botón */
 #btnArriba {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #007BFF;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 50%;
@@ -665,10 +671,10 @@ figure:hover figcaption {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgb(175 157 157 / 48%);
   transition: background-color 0.3s ease;
 }
 
 #btnArriba:hover {
-  background-color: #0056b3;
+  background-color: rgb(35 31 31 / 92%);
 }
